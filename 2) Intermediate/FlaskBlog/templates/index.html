@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>All Posts</h1>
+{% if user %}
+<p>Logged in as {{ user }} | <a href="{{ url_for('logout') }}">Logout</a></p>
+{% else %}
+<p><a href="{{ url_for('login') }}">Login</a> to create/edit posts.</p>
+{% endif %}
+<div class="posts-container">
+{% for post in posts %}
+<div class="post-card">
+    <h2><a href="{{ url_for('post', post_id=post.id) }}">{{ post.title }}</a></h2>
+    <p>{{ post.date }}</p>
+    <div class="post-preview">{{ post.content_html|safe }}</div>
+    {% if user %}
+    <div class="actions">
+        <a href="{{ url_for('edit_post', post_id=post.id) }}">Edit</a>
+        <a href="{{ url_for('delete_post', post_id=post.id) }}">Delete</a>
+    </div>
+    {% endif %}
+</div>
+{% else %}
+<p>No posts yet.</p>
+{% endfor %}
+</div>
+{% endblock %}
