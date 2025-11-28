@@ -10,7 +10,7 @@
 
 ## 🎯 Overview
 
-Welcome to **Python Mastery Projects**, a structured portfolio built to demonstrate **complete Python proficiency** — from the fundamentals to advanced real-world applications.
+Welcome to **Python Mastery Projects**, a structured portfolio built to demonstrate **complete Python proficiency** - from the fundamentals to advanced real-world applications.
 
 This repository is organized into three progressive levels:
 1. 🟢 **Beginner** – Foundational programming concepts and small utilities.  
