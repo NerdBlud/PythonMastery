@@ -168,7 +168,7 @@ Each project reflects growth — from learning loops to building bots and apps t
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/nerdblud/python-mastery.git
+   git clone https://github.com/nerdblud/PythonMastery.git
    ```
 
 2. **Navigate to a project:**
