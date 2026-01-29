@@ -1,6 +1,6 @@
-# 🐍 Python Mastery Projects [15/15]
+# Python Mastery Projects [15/15]
 
-![Python Version](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue?logo=python\&logoColor=white)
 ![License](https://img.shields.io/github/license/nerdblud/python-mastery?color=green)
 ![Repo Size](https://img.shields.io/github/repo-size/nerdblud/python-mastery)
 ![Last Commit](https://img.shields.io/github/last-commit/nerdblud/python-mastery)
@@ -8,201 +8,170 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
-Welcome to **Python Mastery Projects**, a structured portfolio built to demonstrate **complete Python proficiency** - from the fundamentals to advanced real-world applications.
+Python Mastery Projects is a structured portfolio designed to demonstrate progressive Python development skills, ranging from basic programming concepts to more advanced real-world applications.
 
-This repository is organized into three progressive levels:
-1. 🟢 **Beginner** – Foundational programming concepts and small utilities.  
-2. 🟡 **Intermediate** – Real-world applications using APIs, Flask, and automation.  
-3. 🔴 **Expert** – Advanced Python integrations, bots, and computer vision systems.
+The repository is divided into three levels:
 
-Each project reflects not only syntax knowledge but also **best practices, modular design, and real-world problem solving**.
+* Beginner – Core programming fundamentals and simple utilities
+* Intermediate – Practical applications using APIs, web frameworks, and automation
+* Expert – Advanced automation, bots, and computer vision projects
 
----
-
-## 🧭 Quick Navigation
-
-| Level | Project | Description |
-|--------|----------|--------------|
-| 🟢 **Beginner** | [Calculator](#calculator) | A simple arithmetic calculator for core syntax and I/O practice. |
-| | [GuessingGame](#guessinggame) | Number-guessing game with random logic and conditional checks. |
-| | [QuizGame](#quizgame) | Interactive quiz for logic and score tracking. |
-| | [ToDoList](#todolist) | CLI task manager for daily organization. |
-| | [WeatherApp](#weatherapp) | Fetches real-time weather using an external API. |
-| 🟡 **Intermediate** | [Chatbot (NO-AI)](#chatbotno-ai) | Rule-based conversational bot without AI dependencies. |
-| | [FlaskBlog](#flaskblog) | Lightweight Flask blog app with CRUD and templating. |
-| | [ImageWatermark](#imagewatermark) | Adds watermarks to images using Pillow (PIL). |
-| | [MarkdownToHTML](#markdowntohtml) | Converts Markdown files to web-ready HTML. |
-| | [PasswordManager](#passwordmanager) | Secure password storage system with encryption. |
-| 🔴 **Expert** | [FaceRecognition](#facerecognition) | Facial recognition app using OpenCV. |
-| | [FileOrganizer](#fileorganizer) | Automatically organizes and sorts files. |
-| | [StockTracker](#stocktracker) | Monitors live stock data and triggers alerts. |
-| | [TelegramBot](#telegrambot) | Bot for Telegram with command-based automation. |
-| | [WhatsappAutoReplier](#whatsappautoreplier) | Web automation script that replies to WhatsApp messages. |
+Each project focuses on clean code, modular structure, and realistic use cases.
 
 ---
 
-## 🟢 Beginner Projects
-<details>
-<summary>Click to Expand</summary>
+## Project Index
 
-### 🧮 Calculator
-A simple command-line calculator that performs arithmetic operations like addition, subtraction, multiplication, and division.  
-**Purpose:** Strengthens input handling, arithmetic operations, and control flow.
-
----
-
-### 🎲 GuessingGame
-A fun interactive game where users guess a randomly generated number.  
-**Purpose:** Reinforces loops, conditionals, and randomness handling.
-
----
-
-### 🧠 QuizGame
-An interactive quiz system that asks questions, checks answers, and calculates scores.  
-**Purpose:** Demonstrates logic, data structure use, and user interaction.
-
----
-
-### 🗒️ ToDoList
-A terminal-based to-do manager that allows users to add, remove, and list tasks.  
-**Purpose:** Teaches file persistence, list management, and CRUD logic.
+| Level        | Project             | Description                                     |
+| ------------ | ------------------- | ----------------------------------------------- |
+| Beginner     | Calculator          | Command-line calculator for basic arithmetic    |
+|              | GuessingGame        | Number guessing game using random logic         |
+|              | QuizGame            | Interactive quiz with score tracking            |
+|              | ToDoList            | CLI-based task manager                          |
+|              | WeatherApp          | Retrieves live weather data using an API        |
+| Intermediate | Chatbot (NO-AI)     | Rule-based conversational bot                   |
+|              | FlaskBlog           | Lightweight blog application using Flask        |
+|              | ImageWatermark      | Adds watermarks to images using Pillow          |
+|              | MarkdownToHTML      | Converts Markdown files to HTML                 |
+|              | PasswordManager     | Encrypted local password storage                |
+| Expert       | FaceRecognition     | Facial recognition using OpenCV                 |
+|              | FileOrganizer       | Automatic file sorting and organization         |
+|              | StockTracker        | Live stock tracking with alerts                 |
+|              | TelegramBot         | Telegram automation bot                         |
+|              | WhatsappAutoReplier | Automated WhatsApp replies using web automation |
 
 ---
 
-### ☁️ WeatherApp
-Fetches and displays live weather data using an API (e.g., OpenWeatherMap).  
-**Purpose:** Introduces API usage, JSON parsing, and data presentation.
+## Beginner Projects
 
-</details>
+### Calculator
 
----
+Command-line calculator supporting addition, subtraction, multiplication, and division.
+Focus: input handling, control flow, and arithmetic operations.
 
-## 🟡 Intermediate Projects
-<details>
-<summary>Click to Expand</summary>
+### GuessingGame
 
-### 💬 Chatbot [NO-AI]
-A rule-based chatbot that mimics human conversation using pattern matching.  
-**Purpose:** Builds logic for text processing and simple automation.
+Interactive game where users guess a randomly generated number.
+Focus: loops, conditionals, and randomness.
 
----
+### QuizGame
 
-### 🌐 FlaskBlog
-A micro-blogging web app with user posts, editing, and deletion.  
-**Purpose:** Applies Flask routing, Jinja templates, and CRUD operations.
+Question-based quiz system with scoring.
+Focus: logic handling and basic data structures.
 
----
+### ToDoList
 
-### 🖼️ ImageWatermark
-Adds custom watermarks to images using the Pillow library.  
-**Purpose:** Demonstrates image processing and batch file handling.
+Terminal-based task manager with add, remove, and list functionality.
+Focus: file persistence and CRUD-style logic.
 
----
+### WeatherApp
 
-### 📝 MarkdownToHTML
-Converts Markdown (`.md`) files into clean, formatted HTML documents.  
-**Purpose:** Reinforces file I/O, parsing, and content transformation.
+Fetches and displays live weather data from an external API.
+Focus: API usage, JSON parsing, and data presentation.
 
 ---
 
-### 🔐 PasswordManager
-A secure local storage system for user credentials.  
-**Purpose:** Focuses on encryption, file handling, and data security principles.
+## Intermediate Projects
 
-</details>
+### Chatbot (NO-AI)
 
----
+Rule-based chatbot using predefined patterns and responses.
+Focus: text processing and basic automation logic.
 
-## 🔴 Expert Projects
-<details>
-<summary>Click to Expand</summary>
+### FlaskBlog
 
-### 👁️ FaceRecognition
-Implements facial recognition using OpenCV and embeddings.  
-**Purpose:** Demonstrates advanced computer vision and AI application.
+Micro-blog application built with Flask.
+Focus: routing, templates, and CRUD operations.
 
----
+### ImageWatermark
 
-### 🗃️ FileOrganizer
-Automatically organizes files into folders based on type or extension.  
-**Purpose:** Explores OS operations, automation scripting, and regex.
+Applies watermarks to images using the Pillow library.
+Focus: image processing and batch file handling.
 
----
+### MarkdownToHTML
 
-### 📈 StockTracker
-Tracks live stock prices via an API and alerts users when prices meet certain thresholds.  
-**Purpose:** Combines APIs, data analysis, and real-time monitoring.
+Converts Markdown files into formatted HTML output.
+Focus: file parsing and content transformation.
 
----
+### PasswordManager
 
-### 🤖 TelegramBot
-A feature-rich Telegram bot that automates messages and commands.  
-**Purpose:** Builds event-driven programming experience and API usage.
+Local password manager with encryption support.
+Focus: data security, encryption, and file handling.
 
 ---
 
-### 💬 WhatsappAutoReplier
-Automates WhatsApp responses through Selenium-based web automation.  
-**Purpose:** Demonstrates browser automation, DOM handling, and workflow scripting.
+## Expert Projects
 
-</details>
+### FaceRecognition
 
----
+Facial recognition system using OpenCV and facial embeddings.
+Focus: computer vision and image analysis.
 
-## 🏁 Purpose of This Repository
+### FileOrganizer
 
-> This collection is more than a set of scripts — it’s a roadmap of **Python mastery**, covering:
-> - Clean and modular code design  
-> - API and web integration  
-> - Data handling and automation  
-> - Real-world production logic  
-> - Foundational AI and computer vision principles  
+Automatically organizes files into folders based on type or extension.
+Focus: OS-level automation and filesystem operations.
 
-Each project reflects growth — from learning loops to building bots and apps that can run independently in production.
+### StockTracker
 
----
+Monitors live stock prices and sends alerts based on thresholds.
+Focus: API integration and real-time monitoring.
 
-## ⚙️ How to Run
+### TelegramBot
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/nerdblud/PythonMastery.git
-   ```
+Telegram bot with command-based automation features.
+Focus: event-driven programming and messaging APIs.
 
-2. **Navigate to a project:**
+### WhatsappAutoReplier
 
-   ```bash
-   cd "2) Intermediate/FlaskBlog"
-   ```
-3. **Run the script:**
-
-   ```bash
-   python main.py
-   ```
+Automates WhatsApp replies using browser automation tools.
+Focus: web automation and DOM interaction.
 
 ---
 
-## 🚀 Future Enhancements
+## How to Run
 
-* Implement GUI for selected projects using Tkinter or PyQt
-* Add Docker support for web applications
-* Extend automation projects with AI-driven components
-* Integrate continuous testing and CI/CD pipelines
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nerdblud/PythonMastery.git
+```
+
+2. Navigate to a project directory:
+
+```bash
+cd "2) Intermediate/FlaskBlog"
+```
+
+3. Run the project:
+
+```bash
+python main.py
+```
 
 ---
 
-## 👨‍💻 Author
+## Future Enhancements
 
-**Name:** nerdblud
-**Role:** Programmer & Python Developer
-**Language:** Python 3.x
-**Purpose:** Demonstrate complete mastery of Python through a structured project path.
+* Add GUI versions of selected projects using Tkinter or PyQt
+* Add Docker support for web-based applications
+* Extend automation tools with AI-based features
+* Integrate testing and CI/CD pipelines
 
 ---
 
-## 📜 License
+## Author
 
-This project is licensed under the terms of the **Proprietary License**.
-(See `LICENSE` file for details.)
+Name: nerdblud
+Role: Programmer and Python Developer
+Primary Language: Python 3.x
+Purpose: Demonstrate structured progression and real-world Python development skills.
+
+---
+
+## License
+
+This project is licensed under a Proprietary License.
+See the LICENSE file for more information.
